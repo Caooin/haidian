@@ -1,3 +1,13 @@
+---
+title: "Jing-Zhang AI Neural Symbiosis Belt"
+author_github: "Caooin"
+language: "en"
+translation_of: "proposal.md"
+proposal_format_version: "2"
+bilingual_contract_version: "1"
+license: "CC-BY-SA-4.0"
+---
+
 # Jing-Zhang AI Neural Symbiosis Belt
 ## Centennial Jing-Zhang AI Innovation Belt Urban Design Proposal
 

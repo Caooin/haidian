@@ -6,7 +6,7 @@
   },
   "metrics": {
     "research_area_sqm": {
-      "status": "known_official_text",
+      "status": "known",
       "value": 43600000,
       "unit": "sqm",
       "unit_display": "km²",
@@ -15,7 +15,7 @@
       "confidence": "high"
     },
     "overall_design_area_sqm": {
-      "status": "known_official_text",
+      "status": "known",
       "value": 11400000,
       "unit": "sqm",
       "unit_display": "km²",
@@ -24,7 +24,7 @@
       "confidence": "high"
     },
     "key_detailed_area_sqm": {
-      "status": "known_official_text",
+      "status": "known",
       "value": 3684000,
       "unit": "sqm",
       "unit_display": "ha",
@@ -33,7 +33,7 @@
       "confidence": "high"
     },
     "zhongzhiyuan_area_sqm": {
-      "status": "known_official_text",
+      "status": "known",
       "value": 1921000,
       "unit": "sqm",
       "unit_display": "ha",
@@ -42,7 +42,7 @@
       "confidence": "high"
     },
     "ai_origin_community_area_sqm": {
-      "status": "known_official_text",
+      "status": "known",
       "value": 1043000,
       "unit": "sqm",
       "unit_display": "ha",
@@ -51,7 +51,7 @@
       "confidence": "high"
     },
     "dazhongsi_area_sqm": {
-      "status": "known_official_text",
+      "status": "known",
       "value": 720000,
       "unit": "sqm",
       "unit_display": "ha",
@@ -60,7 +60,7 @@
       "confidence": "high"
     },
     "neural_belt_length_km": {
-      "status": "estimated",
+      "status": "unknown",
       "value": 8,
       "unit": "km",
       "source": "north 5th ring to Xizhimen distance estimate",
@@ -68,42 +68,42 @@
       "note": "待官方边界确认后精确测量"
     },
     "scenario_card_count": {
-      "status": "delivered",
+      "status": "known",
       "value": 12,
       "unit": "count",
       "requirement": ">=10",
       "confidence": "high"
     },
     "test_scenario_count": {
-      "status": "delivered",
+      "status": "known",
       "value": 3,
       "unit": "count",
       "requirement": ">=3",
       "confidence": "high"
     },
     "user_persona_count": {
-      "status": "delivered",
+      "status": "known",
       "value": 6,
       "unit": "count",
       "requirement": ">=5",
       "confidence": "high"
     },
     "landmark_count": {
-      "status": "delivered",
+      "status": "known",
       "value": 3,
       "unit": "count",
       "requirement": ">=3",
       "confidence": "high"
     },
     "case_study_count": {
-      "status": "delivered",
+      "status": "known",
       "value": 8,
       "unit": "count",
       "requirement": "5-8",
       "confidence": "high"
     },
     "suture_node_count": {
-      "status": "delivered",
+      "status": "known",
       "value": 3,
       "unit": "count",
       "items": [
@@ -114,14 +114,14 @@
       "confidence": "high"
     },
     "time_check_point_count": {
-      "status": "delivered",
+      "status": "known",
       "value": 12,
       "unit": "count",
       "note": "12个算力驿站即对时点",
       "confidence": "high"
     },
     "physical_kill_switch_count": {
-      "status": "delivered",
+      "status": "known",
       "value": 13,
       "unit": "count",
       "items": [
@@ -131,7 +131,7 @@
       "confidence": "high"
     },
     "ai_pilgrimage_landmarks": {
-      "status": "delivered",
+      "status": "known",
       "value": 3,
       "items": [
         "京张时空之门 @清华园站",
@@ -141,7 +141,7 @@
       "confidence": "high"
     },
     "cultural_fusion_nodes": {
-      "status": "delivered",
+      "status": "known",
       "value": 5,
       "items": [
         "清华园站记忆剧场",
@@ -153,7 +153,7 @@
       "confidence": "high"
     },
     "event_calendar_annual": {
-      "status": "delivered",
+      "status": "known",
       "value": 10,
       "items": [
         "1月对时大典",
@@ -170,28 +170,28 @@
       "confidence": "high"
     },
     "green_ratio_target": {
-      "status": "proposed",
+      "status": "unknown",
       "value": 0.35,
       "unit": "ratio",
       "note": "公共绿地占比目标35%（建议），待控规确认",
       "confidence": "low"
     },
     "public_space_ratio_target": {
-      "status": "proposed",
+      "status": "unknown",
       "value": 0.3,
       "unit": "ratio",
       "note": "公共空间占比目标30%（建议），待控规确认",
       "confidence": "low"
     },
     "no_ai_quiet_zone_count": {
-      "status": "delivered",
+      "status": "known",
       "value": 3,
       "unit": "count",
       "note": "林下空间、阅读花园等无AI安静区（概念数量）",
       "confidence": "medium"
     },
     "city_version_milestones": {
-      "status": "delivered",
+      "status": "known",
       "value": 4,
       "items": [
         "v1.0 - 2027启动版",
@@ -202,49 +202,25 @@
       "confidence": "high"
     },
     "open_source_resident_compute_ratio": {
-      "status": "proposed",
+      "status": "unknown",
       "value": 0.1,
       "unit": "ratio",
       "note": "公益算力占比10%",
       "confidence": "medium"
     },
     "profit_reinvest_ratio": {
-      "status": "proposed",
+      "status": "unknown",
       "value": 0.5,
       "unit": "ratio",
       "note": "运营利润50%反哺社区",
       "confidence": "medium"
     },
-    "floor_area_ratio": {
-      "status": "unknown",
-      "value": null,
-      "reason": "待官方控规条件发布后确定",
-      "confidence": "unknown"
-    },
-    "building_height_limits": {
-      "status": "unknown",
-      "value": null,
-      "reason": "待官方控规条件发布后确定",
-      "confidence": "unknown"
-    },
-    "road_red_lines": {
-      "status": "unknown",
-      "value": null,
-      "reason": "待官方道路红线数据发布后确定",
-      "confidence": "unknown"
-    },
-    "building_footprint_area_sqm": {
-      "status": "unknown",
-      "value": null,
-      "reason": "待现状建筑测绘数据发布后计算",
-      "confidence": "unknown"
-    },
     "land_use_m0_ratio": {
-      "status": "conceptual",
+      "status": "unknown",
       "value": null,
       "reason": "概念分区，待法定用地分类深化",
       "confidence": "low"
     }
   },
-  "geometric_recalculation_note": "当前指标基于公告公开的面积数据；官方精确GeoJSON边界发布后需复算所有空间指标。所有proposed指标为设计建议，最终以控规为准。"
+  "geometric_recalculation_note": "当前指标基于公告公开的面积数据；官方精确GeoJSON边界发布后需复算所有空间指标。"
 }

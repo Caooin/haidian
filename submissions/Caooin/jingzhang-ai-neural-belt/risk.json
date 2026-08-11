@@ -1,7 +1,14 @@
 {
-  "schema_version": "1.0.0",
-  "proposal_id": "trae-ai/jingzhang-ai-neural-belt",
+  "version": 1,
+  "proposal_id": "Caooin/jingzhang-ai-neural-belt",
   "risk_assessment_date": "2026-08-11",
+  "dimensions": [
+    "likelihood",
+    "impact",
+    "mitigation",
+    "owner",
+    "review_frequency"
+  ],
   "risk_matrix": [
     {
       "risk_id": "R-001",
