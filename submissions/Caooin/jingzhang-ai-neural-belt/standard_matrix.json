@@ -1,0 +1,59 @@
+{
+  "schema_version": "0.1.0",
+  "standards": [
+    {
+      "standard_id": "PROJECT-OFFICIAL-ANNOUNCEMENT",
+      "requirement_zh": "公告1.3、1.4、1.5对项目目的、三层范围、设计任务和成果深度提出主控要求",
+      "professional_dimension": "规划统筹",
+      "mandatory": true,
+      "review_status": "addressed",
+      "proposal_sections": ["设计依据与项目概述", "三层范围框架"],
+      "coverage_notes": "完整覆盖三层范围和所有公告要求任务"
+    },
+    {
+      "standard_id": "PROJECT-AGENT-OPEN-CALL-TASKBOOK",
+      "requirement_zh": "面向智能体任务书对十条共创原则、三大定位、五大功能、六项智能体任务提出要求",
+      "professional_dimension": "AI共创与运营",
+      "mandatory": true,
+      "review_status": "addressed",
+      "proposal_sections": ["全部六章任务"],
+      "coverage_notes": "六项agent任务全部完成，十条共创原则全部合规"
+    },
+    {
+      "standard_id": "MOHURD-URBAN-DESIGN-MEASURES",
+      "requirement_zh": "城市设计应落实规划、指导建筑设计、塑造城市特色风貌，统筹平面和立体空间",
+      "professional_dimension": "城市设计",
+      "mandatory": true,
+      "review_status": "addressed_conceptually",
+      "proposal_sections": ["总体空间结构", "公共空间系统", "城市风貌"],
+      "coverage_notes": "概念层面回应，待控规条件后深化具体控制要求"
+    },
+    {
+      "standard_id": "MOHURD-CONTROL-DETAILED-PLANNING",
+      "requirement_zh": "控规深度结论需区分已知控制条件、设计建议和待确认事项",
+      "professional_dimension": "控规实施",
+      "mandatory": true,
+      "review_status": "addressed_with_assumptions",
+      "proposal_sections": ["风险与缺资料说明"],
+      "coverage_notes": "已明确标注缺资料事项，不编造控规指标"
+    },
+    {
+      "standard_id": "MNR-LAND-USE-CLASSIFICATION-GUIDE",
+      "requirement_zh": "用地表达采用可校验分类，不使用自造分类",
+      "professional_dimension": "用地分类",
+      "mandatory": true,
+      "review_status": "conceptual_only",
+      "proposal_sections": ["用地结构概念"],
+      "coverage_notes": "概念分区为主，正式GeoJSON中使用规范分类代码"
+    },
+    {
+      "standard_id": "AI-ETHICS-PRIVACY-BY-DESIGN",
+      "requirement_zh": "AI应用需遵循隐私保护设计、数据最小化、可解释、人工复核原则",
+      "professional_dimension": "AI伦理",
+      "mandatory": true,
+      "review_status": "addressed",
+      "proposal_sections": ["每个AI场景卡的隐私边界", "伦理柱地标设计"],
+      "coverage_notes": "每个场景明确隐私边界和人工复核节点，设置无AI区域"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "schema_version": "0.1.0",
+  "depth_items": [
+    {
+      "depth_id": "three_level_scope_framework",
+      "title_zh": "三层范围工作框架",
+      "requirement_zh": "统筹研究、总体设计、重点区域三层范围清晰界定，各层任务明确",
+      "status": "completed",
+      "evidence": "proposal.md#三层范围工作框架"
+    },
+    {
+      "depth_id": "overall_spatial_structure",
+      "title_zh": "总体空间结构",
+      "requirement_zh": "提出清晰的空间结构、功能分区、廊道和节点系统",
+      "status": "completed",
+      "evidence": "proposal.md#一带三核两翼·神经回路模型"
+    },
+    {
+      "depth_id": "three_key_area_detailed_design",
+      "title_zh": "三处重点区域详细设计",
+      "requirement_zh": "众智源、AI原点社区、大钟寺三处分别给出定位、空间动作、AI场景",
+      "status": "completed",
+      "evidence": "proposal.md#2.3-2.5及任务四"
+    },
+    {
+      "depth_id": "land_use_layout",
+      "title_zh": "用地布局",
+      "requirement_zh": "用地功能结构清晰，分区合理",
+      "status": "conceptual_complete",
+      "evidence": "proposal.md相关章节 + geometry/land_use.geojson",
+      "notes": "概念布局，待官方边界后精确调整"
+    },
+    {
+      "depth_id": "development_intensity_controls",
+      "title_zh": "开发强度管控",
+      "requirement_zh": "容积率、高度、密度等管控要求",
+      "status": "data_gap",
+      "evidence": "assumptions.json#A-CONTROLS-001",
+      "notes": "待官方控规条件发布后补充"
+    },
+    {
+      "depth_id": "height_massing_character",
+      "title_zh": "高度体量与风貌",
+      "requirement_zh": "建筑高度、体量、界面和风貌控制引导",
+      "status": "conceptual",
+      "evidence": "proposal.md#风貌相关章节",
+      "notes": "概念性引导，无伪精确数值"
+    },
+    {
+      "depth_id": "retain_renovate_demolish",
+      "title_zh": "拆改留分类",
+      "requirement_zh": "建筑保留、改造、拆除分类",
+      "status": "data_gap",
+      "evidence": "assumptions.json#A-BUILDINGS-001",
+      "notes": "缺少现状建筑数据，仅提出原则性策略"
+    },
+    {
+      "depth_id": "traffic_rail_slow_parking",
+      "title_zh": "交通、轨道、慢行与停车",
+      "requirement_zh": "轨道站点一体化、微循环、慢行断点、停车系统",
+      "status": "conceptual",
+      "evidence": "proposal.md相关章节",
+      "notes": "提出AI交通微循环测试场景，工程细节待深化"
+    },
+    {
+      "depth_id": "municipal_new_infrastructure",
+      "title_zh": "市政与新型基础设施",
+      "requirement_zh": "传统市政+算力、分布式能源等新基建",
+      "status": "conceptual",
+      "evidence": "proposal.md#端侧算力驿站等",
+      "notes": "提出算力驿站作为新型基础设施节点概念"
+    },
+    {
+      "depth_id": "blue_green_public_space",
+      "title_zh": "蓝绿空间与公共空间",
+      "requirement_zh": "蓝绿网络、公共空间系统、慢行连通",
+      "status": "completed",
+      "evidence": "proposal.md#4.1京张遗址公园AI公共空间系统"
+    },
+    {
+      "depth_id": "renewal_project_list",
+      "title_zh": "更新项目清单",
+      "requirement_zh": "可审查的更新项目列表，含位置、类型、依赖",
+      "status": "completed",
+      "evidence": "proposal.md#项目清单示例",
+      "notes": "6个概念性示范项目"
+    },
+    {
+      "depth_id": "phasing_implementation",
+      "title_zh": "分期实施",
+      "requirement_zh": "分期范围、阶段目标、实施路径",
+      "status": "completed",
+      "evidence": "proposal.md#四阶段实施路线图(2026-2049)"
+    },
+    {
+      "depth_id": "metrics_recalculation",
+      "title_zh": "指标复算",
+      "requirement_zh": "所有known指标可从几何复算，unknown指标说明原因",
+      "status": "completed",
+      "evidence": "metrics.json"
+    },
+    {
+      "depth_id": "risk_missing_data",
+      "title_zh": "风险与缺资料",
+      "requirement_zh": "明确列出风险、缺资料事项和待深化条件",
+      "status": "completed",
+      "evidence": "assumptions.json + proposal.md#风险与应对"
+    }
+  ]
+}
