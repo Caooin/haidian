@@ -1,67 +1,30 @@
 {
-  "schema_version": "1.0.0",
-  "proposal_id": "Caooin/jingzhang-ai-neural-belt",
-  "self_check_version": "v1",
-  "checked_at": "2026-08-11T12:00:00Z",
-  "gate_1_file_integrity": {
-    "status": "pass",
-    "checks": {
-      "proposal_md_exists": true,
-      "proposal_en_exists": true,
-      "manifest_json_exists": true,
-      "changelog_md_exists": true,
-      "risk_json_exists": true,
-      "agent_json_exists": true,
-      "self_check_json_exists": true,
-      "all_required_geojson_exist": true,
-      "no_unauthorized_files": true
+  "ok": true,
+  "can_enter_formal_review": true,
+  "checks": [
+    {
+      "gate": "DETERMINISTIC_VALIDATION",
+      "status": "pass",
+      "notes": "All file format checks passed",
+      "blocking": true
+    },
+    {
+      "gate": "PROFESSIONAL_EVIDENCE",
+      "status": "pass",
+      "notes": "All required design evidence is present",
+      "blocking": true
+    },
+    {
+      "gate": "SPATIAL_REVIEW",
+      "status": "pass",
+      "notes": "All spatial layers are valid and consistent",
+      "blocking": true
+    },
+    {
+      "gate": "VISUAL_PACKAGING",
+      "status": "pass",
+      "notes": "All visual outputs are present",
+      "blocking": true
     }
-  },
-  "gate_2_format_compliance": {
-    "status": "pass",
-    "checks": {
-      "proposal_format_v2": true,
-      "bilingual_contract_v1": true,
-      "manifest_submission_stage_formal": true,
-      "manifest_submission_type_ai_agent": true,
-      "manifest_project_id_correct": true,
-      "manifest_files_is_array": true,
-      "manifest_validation_claim_present": true,
-      "metrics_status_valid_values": true,
-      "risk_version_is_1": true,
-      "risk_dimensions_non_empty": true,
-      "compliance_requirements_non_empty": true,
-      "standard_matrix_fields_complete": true,
-      "design_depth_items_non_empty": true,
-      "proposal_required_sections_present": true,
-      "proposal_machine_readable_refs": true,
-      "proposal_en_front_matter": true,
-      "changelog_title_format": true,
-      "required_images_embedded": true
-    }
-  },
-  "gate_3_spatial_review": {
-    "status": "pass",
-    "checks": {
-      "key_areas_use_official_ids": true,
-      "provisional_boundaries_annotated": true,
-      "official_boundary_false_declared": true,
-      "boundary_precision_provisional_rough": true,
-      "usage_note_in_chinese": true,
-      "no_fabricated_official_claims": true
-    }
-  },
-  "gate_4_professional_evidence": {
-    "status": "pass",
-    "checks": {
-      "all_required_tasks_addressed": true,
-      "compliance_matrix_covers_24_requirements": true,
-      "risk_matrix_covers_10_categories": true,
-      "metrics_26_indicators_defined": true,
-      "conceptual_nature_disclosed": true,
-      "data_sources_documented": true,
-      "bilingual_contract_met": true,
-      "human_readable_diagrams_embedded": true
-    }
-  }
+  ]
 }

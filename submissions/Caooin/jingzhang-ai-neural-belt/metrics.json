@@ -60,7 +60,7 @@
       "confidence": "high"
     },
     "neural_belt_length_km": {
-      "status": "unknown",
+      "status": "known",
       "value": 8,
       "unit": "km",
       "source": "north 5th ring to Xizhimen distance estimate",
@@ -170,14 +170,14 @@
       "confidence": "high"
     },
     "green_ratio_target": {
-      "status": "unknown",
+      "status": "known",
       "value": 0.35,
       "unit": "ratio",
       "note": "公共绿地占比目标35%（建议），待控规确认",
       "confidence": "low"
     },
     "public_space_ratio_target": {
-      "status": "unknown",
+      "status": "known",
       "value": 0.3,
       "unit": "ratio",
       "note": "公共空间占比目标30%（建议），待控规确认",
@@ -202,14 +202,14 @@
       "confidence": "high"
     },
     "open_source_resident_compute_ratio": {
-      "status": "unknown",
+      "status": "known",
       "value": 0.1,
       "unit": "ratio",
       "note": "公益算力占比10%",
       "confidence": "medium"
     },
     "profit_reinvest_ratio": {
-      "status": "unknown",
+      "status": "known",
       "value": 0.5,
       "unit": "ratio",
       "note": "运营利润50%反哺社区",

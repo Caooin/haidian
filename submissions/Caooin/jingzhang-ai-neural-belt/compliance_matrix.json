@@ -1,8 +1,5 @@
 {
-  "schema_version": "1.0.0",
-  "proposal_id": "Caooin/jingzhang-ai-neural-belt",
-  "proposal_format_version": "2",
-  "bilingual_contract_version": "1",
+  "schema_version": "0.1.0",
   "requirements": [
     {
       "requirement_id": "1.3.1",
@@ -11,10 +8,6 @@
       "report_sections": ["任务二：AI全栈自主创新体系与生态"],
       "geojson_layers": ["geometry/key_areas.geojson", "geometry/land_use.geojson"],
       "metrics": ["scenario_card_count", "case_study_count"],
-      "visual_sections": ["全球AI圣地案例"],
-      "source_ids": ["PUBLIC-ANNOUNCEMENT-001"],
-      "assumption_ids": ["A-MISSING-DATA-001"],
-      "self_check_ids": ["TASK-2-COMPLETE"],
       "status": "addressed"
     },
     {
@@ -24,10 +17,6 @@
       "report_sections": ["一带三核两翼三缝合口", "方法论创新"],
       "geojson_layers": ["geometry/site_boundary.geojson", "geometry/phasing.geojson"],
       "metrics": ["scenario_card_count", "physical_kill_switch_count", "suture_node_count"],
-      "visual_sections": ["总体概念图", "AI原生方法论创新"],
-      "source_ids": ["PUBLIC-ANNOUNCEMENT-001"],
-      "assumption_ids": ["A-MISSING-DATA-001"],
-      "self_check_ids": ["TASK-1-COMPLETE"],
       "status": "addressed"
     },
     {
@@ -37,10 +26,6 @@
       "report_sections": ["六类用户画像", "包容性设计专项"],
       "geojson_layers": ["geometry/public_space.geojson", "geometry/green_space.geojson"],
       "metrics": ["user_persona_count", "open_source_resident_compute_ratio", "no_ai_quiet_zone_count"],
-      "visual_sections": ["包容性设计", "公共空间体系"],
-      "source_ids": ["PUBLIC-ANNOUNCEMENT-001"],
-      "assumption_ids": [],
-      "self_check_ids": ["TASK-3-COMPLETE"],
       "status": "addressed"
     },
     {
@@ -50,10 +35,6 @@
       "report_sections": ["设计依据与项目概述", "三层范围工作框架"],
       "geojson_layers": [],
       "metrics": ["research_area_sqm"],
-      "visual_sections": [],
-      "source_ids": ["PUBLIC-ANNOUNCEMENT-001"],
-      "assumption_ids": ["A-BOUNDARY-001"],
-      "self_check_ids": ["SCOPE-DEFINED"],
       "status": "addressed"
     },
     {
@@ -63,10 +44,6 @@
       "report_sections": ["一带总体概念", "总体设计范围城市更新与控规深度城市设计"],
       "geojson_layers": ["geometry/site_boundary.geojson", "geometry/roads.geojson"],
       "metrics": ["overall_design_area_sqm", "neural_belt_length_km"],
-      "visual_sections": ["一带三核两翼总体图"],
-      "source_ids": ["PUBLIC-ANNOUNCEMENT-001"],
-      "assumption_ids": ["A-BOUNDARY-001", "A-MISSING-DATA-001"],
-      "self_check_ids": ["TASK-1-COMPLETE"],
       "status": "addressed"
     },
     {
@@ -76,10 +53,6 @@
       "report_sections": ["重点区域详细设计"],
       "geojson_layers": ["geometry/key_areas.geojson"],
       "metrics": ["key_detailed_area_sqm", "zhongzhiyuan_area_sqm", "ai_origin_community_area_sqm", "dazhongsi_area_sqm"],
-      "visual_sections": ["三核空间布局"],
-      "source_ids": ["PUBLIC-ANNOUNCEMENT-001"],
-      "assumption_ids": ["A-BOUNDARY-001"],
-      "self_check_ids": ["KEY-AREAS-DEFINED"],
       "status": "addressed"
     },
     {
@@ -89,10 +62,6 @@
       "report_sections": ["全球8个AI生态案例", "三核产业布局"],
       "geojson_layers": [],
       "metrics": ["case_study_count", "test_scenario_count"],
-      "visual_sections": ["全球AI圣地案例研究"],
-      "source_ids": ["GLOBAL-CASE-SV", "GLOBAL-CASE-LONDON", "GLOBAL-CASE-TOKYO"],
-      "assumption_ids": [],
-      "self_check_ids": ["TASK-2-COMPLETE"],
       "status": "addressed"
     },
     {
@@ -102,10 +71,6 @@
       "report_sections": ["统筹研究范围产业与未来城市研究", "方法论创新"],
       "geojson_layers": [],
       "metrics": ["city_version_milestones"],
-      "visual_sections": ["对时协议五原则", "方法论创新"],
-      "source_ids": ["PUBLIC-ANNOUNCEMENT-001"],
-      "assumption_ids": [],
-      "self_check_ids": ["METHODOLOGY-DEFINED"],
       "status": "addressed"
     },
     {
@@ -115,10 +80,6 @@
       "report_sections": ["AI创新生态、人才画像与AI+场景"],
       "geojson_layers": ["geometry/key_areas.geojson", "geometry/land_use.geojson"],
       "metrics": ["scenario_card_count"],
-      "visual_sections": ["三核功能分区图"],
-      "source_ids": ["PUBLIC-ANNOUNCEMENT-001"],
-      "assumption_ids": ["A-MISSING-DATA-001"],
-      "self_check_ids": ["TASK-1-COMPLETE", "TASK-2-COMPLETE"],
       "status": "addressed"
     },
     {
@@ -128,10 +89,6 @@
       "report_sections": ["用地、建筑规模与拆改留方案"],
       "geojson_layers": ["geometry/buildings.geojson", "geometry/phasing.geojson"],
       "metrics": ["city_version_milestones"],
-      "visual_sections": ["文化融合-保护更新"],
-      "source_ids": ["PUBLIC-ANNOUNCEMENT-001"],
-      "assumption_ids": ["A-MISSING-DATA-002", "A-CONTROLS-001"],
-      "self_check_ids": ["RENEWAL-FRAMEWORK"],
       "status": "addressed"
     },
     {
@@ -141,10 +98,6 @@
       "report_sections": ["交通、轨道、市政与公共服务设施"],
       "geojson_layers": ["geometry/roads.geojson"],
       "metrics": ["suture_node_count"],
-      "visual_sections": ["缝合口慢行连通"],
-      "source_ids": ["PUBLIC-ANNOUNCEMENT-001"],
-      "assumption_ids": ["A-MISSING-DATA-001", "A-CONTROLS-001"],
-      "self_check_ids": ["TRANSPORT-CONCEPT"],
       "status": "addressed"
     },
     {
@@ -154,10 +107,6 @@
       "report_sections": ["蓝绿空间、公共空间与城市风貌"],
       "geojson_layers": ["geometry/green_space.geojson", "geometry/public_space.geojson"],
       "metrics": ["neural_belt_length_km", "green_ratio_target"],
-      "visual_sections": ["文化遗产节点", "三条体验游线"],
-      "source_ids": ["PUBLIC-ANNOUNCEMENT-001"],
-      "assumption_ids": ["A-MISSING-DATA-001"],
-      "self_check_ids": ["HERITAGE-ADDRESSED"],
       "status": "addressed"
     },
     {
@@ -167,10 +116,6 @@
       "report_sections": ["蓝绿空间、公共空间与城市风貌"],
       "geojson_layers": [],
       "metrics": ["landmark_count"],
-      "visual_sections": ["品牌视觉系统", "三个朝圣地标"],
-      "source_ids": ["PUBLIC-ANNOUNCEMENT-001"],
-      "assumption_ids": [],
-      "self_check_ids": ["VISUAL-IDENTITY"],
       "status": "addressed"
     },
     {
@@ -180,10 +125,6 @@
       "report_sections": ["重点区域详细设计"],
       "geojson_layers": ["geometry/key_areas.geojson"],
       "metrics": ["key_detailed_area_sqm"],
-      "visual_sections": ["三核详细设计"],
-      "source_ids": ["PUBLIC-ANNOUNCEMENT-001"],
-      "assumption_ids": ["A-BOUNDARY-001"],
-      "self_check_ids": ["ALL-KEY-AREAS-ADDRESSED"],
       "status": "addressed"
     },
     {
@@ -193,10 +134,6 @@
       "report_sections": ["重点区域详细设计"],
       "geojson_layers": ["geometry/key_areas.geojson"],
       "metrics": ["zhongzhiyuan_area_sqm", "physical_kill_switch_count"],
-      "visual_sections": ["众智源功能布局"],
-      "source_ids": ["PUBLIC-ANNOUNCEMENT-001"],
-      "assumption_ids": ["A-BOUNDARY-001", "A-CONTROLS-001"],
-      "self_check_ids": ["KEY-AREA-1-ADDRESSED"],
       "status": "addressed"
     },
     {
@@ -206,10 +143,6 @@
       "report_sections": ["重点区域详细设计"],
       "geojson_layers": ["geometry/key_areas.geojson"],
       "metrics": ["ai_origin_community_area_sqm"],
-      "visual_sections": ["智源社社区设计"],
-      "source_ids": ["PUBLIC-ANNOUNCEMENT-001"],
-      "assumption_ids": ["A-BOUNDARY-001", "A-CONTROLS-001"],
-      "self_check_ids": ["KEY-AREA-2-ADDRESSED"],
       "status": "addressed"
     },
     {
@@ -219,10 +152,6 @@
       "report_sections": ["重点区域详细设计"],
       "geojson_layers": ["geometry/key_areas.geojson"],
       "metrics": ["dazhongsi_area_sqm"],
-      "visual_sections": ["大钟寺四象限设计"],
-      "source_ids": ["PUBLIC-ANNOUNCEMENT-001"],
-      "assumption_ids": ["A-BOUNDARY-001", "A-CONTROLS-001"],
-      "self_check_ids": ["KEY-AREA-3-ADDRESSED"],
       "status": "addressed"
     },
     {
@@ -232,10 +161,6 @@
       "report_sections": ["任务一：一带总体概念与功能统筹"],
       "geojson_layers": ["geometry/site_boundary.geojson", "geometry/key_areas.geojson"],
       "metrics": ["suture_node_count", "time_check_point_count"],
-      "visual_sections": ["总体概念图"],
-      "source_ids": ["PUBLIC-ANNOUNCEMENT-001"],
-      "assumption_ids": ["A-BOUNDARY-001"],
-      "self_check_ids": ["AGENT-1-COMPLETE"],
       "status": "addressed"
     },
     {
@@ -245,10 +170,6 @@
       "report_sections": ["任务二：AI全栈自主创新体系与生态"],
       "geojson_layers": ["geometry/key_areas.geojson", "geometry/land_use.geojson"],
       "metrics": ["case_study_count", "test_scenario_count", "scenario_card_count"],
-      "visual_sections": ["全球案例研究"],
-      "source_ids": ["PUBLIC-ANNOUNCEMENT-001"],
-      "assumption_ids": [],
-      "self_check_ids": ["AGENT-2-COMPLETE"],
       "status": "addressed"
     },
     {
@@ -258,10 +179,6 @@
       "report_sections": ["AI创新生态、人才画像与AI+场景"],
       "geojson_layers": ["geometry/public_space.geojson"],
       "metrics": ["scenario_card_count", "user_persona_count", "test_scenario_count"],
-      "visual_sections": ["场景矩阵"],
-      "source_ids": ["PUBLIC-ANNOUNCEMENT-001"],
-      "assumption_ids": [],
-      "self_check_ids": ["AGENT-3-COMPLETE"],
       "status": "addressed"
     },
     {
@@ -271,10 +188,6 @@
       "report_sections": ["蓝绿空间、公共空间与城市风貌"],
       "geojson_layers": ["geometry/public_space.geojson", "geometry/green_space.geojson"],
       "metrics": ["landmark_count", "ai_pilgrimage_landmarks", "suture_node_count"],
-      "visual_sections": ["三个朝圣地标"],
-      "source_ids": ["PUBLIC-ANNOUNCEMENT-001"],
-      "assumption_ids": ["A-CONTROLS-001"],
-      "self_check_ids": ["AGENT-4-COMPLETE"],
       "status": "addressed"
     },
     {
@@ -284,10 +197,6 @@
       "report_sections": ["任务五：文化融合叙事"],
       "geojson_layers": [],
       "metrics": ["cultural_fusion_nodes", "event_calendar_annual"],
-      "visual_sections": ["文化叙事"],
-      "source_ids": ["PUBLIC-ANNOUNCEMENT-001"],
-      "assumption_ids": [],
-      "self_check_ids": ["AGENT-5-COMPLETE"],
       "status": "addressed"
     },
     {
@@ -297,16 +206,7 @@
       "report_sections": ["更新项目清单、实施政策与分期计划"],
       "geojson_layers": ["geometry/phasing.geojson"],
       "metrics": ["event_calendar_annual", "city_version_milestones"],
-      "visual_sections": ["年度活动日历"],
-      "source_ids": ["PUBLIC-ANNOUNCEMENT-001"],
-      "assumption_ids": [],
-      "self_check_ids": ["AGENT-6-COMPLETE"],
       "status": "addressed"
     }
-  ],
-  "coverage_summary": {
-    "total_requirements": 24,
-    "fully_addressed": 24,
-    "coverage_note": "所有必选任务均已覆盖；涉及具体管控指标、建设强度、道路线位内容均明确标注为概念建议；几何边界全部使用provisional临时估算边界并明示限制。"
-  }
+  ]
 }

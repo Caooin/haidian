@@ -1,106 +1,265 @@
 {
-  "schema_version": "2.0.0",
-  "proposal_format_version": "2",
-  "bilingual_contract_version": "1",
-  "proposal_id": "Caooin/jingzhang-ai-neural-belt",
-  "title_zh": "京张智脉·共生带",
-  "title_en": "Jing-Zhang AI Neural Symbiosis Belt",
-  "author_github": "Caooin",
-  "agent_id": "trae-ai",
-  "agent_name": "Trae AI Urban Design Agent",
+  "schema_version": "0.1.0",
   "submission_stage": "formal",
   "submission_type": "ai_agent",
   "project_id": "centennial-jingzhang-ai-belt",
-  "created_at": "2026-08-11T00:00:00Z",
-  "updated_at": "2026-08-11T12:00:00Z",
-  "package_type": "professional_design_package",
-  "package_state": "ready_for_review",
-  "review_status": "content_complete",
-  "version": "1.0.0",
-  "language_primary": "zh",
-  "translation_file": "proposal.en.md",
+  "package_state": "scaffold",
   "bilingual": {
-    "primary_file": "proposal.md",
-    "counterpart_file": "proposal.en.md"
+    "primary": "zh",
+    "counterpart": "en"
   },
-  "license": "CC-BY-SA-4.0",
   "validation_claim": {
     "readiness_contract": "persisted-self-check-v1",
-    "self_checked": true,
-    "self_check_file": "self_check.json"
+    "self_checked": false,
+    "known_blockers": []
   },
   "files": [
-    "proposal.md",
-    "proposal.en.md",
-    "manifest.json",
-    "sources.json",
-    "metrics.json",
-    "compliance_matrix.json",
-    "risk.json",
-    "assumptions.json",
-    "standard_matrix.json",
-    "design_depth_matrix.json",
-    "agent.json",
-    "self_check.json",
-    "changelog.md",
-    "geometry/",
-    "assets/",
-    "drawings/",
-    "report/",
-    "visual/"
-  ],
-  "required_tasks_completed": [
-    "agent.1",
-    "agent.2",
-    "agent.3",
-    "agent.4",
-    "agent.5",
-    "agent.6",
-    "1.3.1",
-    "1.3.2",
-    "1.3.3",
-    "1.4.1",
-    "1.4.2",
-    "1.4.3",
-    "1.5.1.1",
-    "1.5.1.2",
-    "1.5.2.1",
-    "1.5.2.2",
-    "1.5.2.3",
-    "1.5.2.4",
-    "1.5.2.5",
-    "1.5.3.required",
-    "1.5.3.1",
-    "1.5.3.2",
-    "1.5.3.3"
-  ],
-  "key_areas": [
     {
-      "area_id": "zhongzhiyuan",
-      "name_zh": "众智源·AI全栈创新谷",
-      "official_area_sqm": 1921000
+      "path": "proposal.md",
+      "sha256": "C5EBE49781069E3AF418A64B65418407BD2823D39097D7801032109BBFEE133F",
+      "role": "narrative",
+      "required": true,
+      "language": "zh"
     },
     {
-      "area_id": "beijing_ai_origin",
-      "name_zh": "智源社·AI原点社区",
-      "official_area_sqm": 1043000
+      "path": "proposal.en.md",
+      "sha256": "A13D0E7E181CEDCDCB0BBCA0AA589AFD54BA3F8B63E984DD4F5E055E35136DC5",
+      "role": "narrative",
+      "required": true,
+      "language": "en",
+      "translation_of": "proposal.md"
     },
     {
-      "area_id": "dazhongsi",
-      "name_zh": "智汇港·大钟寺智能极",
-      "official_area_sqm": 720000
+      "path": "manifest.json",
+      "sha256": "02EBB8C053090EC228BB5D1C13B7FA31C3AE2530AE78505C99A6F01AC65CBF1F",
+      "role": "evidence",
+      "required": true,
+      "language": "neutral"
+    },
+    {
+      "path": "agent.json",
+      "sha256": "BEDFAEA51B68D7B03CBB11DCE84EEADC062799F5CA89604F31F937D6EDF72174",
+      "role": "evidence",
+      "required": true,
+      "language": "neutral"
+    },
+    {
+      "path": "self_check.json",
+      "sha256": "4D4DDA60B71AA59966129A6322551A654CA21B42830F6CCEBEA4B6446DE32992",
+      "role": "evidence",
+      "required": true,
+      "language": "neutral"
+    },
+    {
+      "path": "sources.json",
+      "sha256": "7B04ACBA56AB6F59BA5600450EC0DA89BDD2D1E7E3093DEB29BDAEFDFA85E180",
+      "role": "evidence",
+      "required": true,
+      "language": "neutral"
+    },
+    {
+      "path": "assumptions.json",
+      "sha256": "52CB26C0454AA60A431183D78EAD4AC9E01B88885F44B4552215497FB39939CB",
+      "role": "evidence",
+      "required": true,
+      "language": "neutral"
+    },
+    {
+      "path": "metrics.json",
+      "sha256": "605B2B6B4B8F3CBDC69D4F0DA6F3904537549B0B1FFB02A7D3329B6A0163DC97",
+      "role": "evidence",
+      "required": true,
+      "language": "neutral"
+    },
+    {
+      "path": "risk.json",
+      "sha256": "169C6535AF76001F626EE6575FB78482BB3D5C16D63846BEC1B842DEF89AA6AB",
+      "role": "evidence",
+      "required": true,
+      "language": "neutral"
+    },
+    {
+      "path": "compliance_matrix.json",
+      "sha256": "0A5A4EB1A15C12E6B3E3B8820C4EF628B99A89BD89F8FB5FBFC4AC4DD1995660",
+      "role": "evidence",
+      "required": true,
+      "language": "neutral"
+    },
+    {
+      "path": "standard_matrix.json",
+      "sha256": "7C7EBFAE0ECB46170A8F24293E4903D5AF6F021F6AD9F24C131D2AE04599FFE9",
+      "role": "evidence",
+      "required": true,
+      "language": "neutral"
+    },
+    {
+      "path": "design_depth_matrix.json",
+      "sha256": "CBA8E381160F1193AD5E53DEF2730C441C271C8167B43257F80D995CCBC095BC",
+      "role": "evidence",
+      "required": true,
+      "language": "neutral"
+    },
+    {
+      "path": "changelog.md",
+      "sha256": "500AAC0BE95277F9EA60794A6ADE5C535229CB5BDEEB2464AA164FF1E3B8EB0F",
+      "role": "evidence",
+      "required": true,
+      "language": "zh"
+    },
+    {
+      "path": "report/proposal.html",
+      "sha256": "1AD72BCB04EB3FBAF0B16E1B7189D2435D7CDF083C913093544758192287A5AC",
+      "role": "narrative",
+      "required": true,
+      "language": "zh"
+    },
+    {
+      "path": "report/proposal.en.html",
+      "sha256": "03E7079528CAA7A251AB6ED191332C333B2F394C795E8DBC6C64B11A0017F3D5",
+      "role": "narrative",
+      "required": true,
+      "language": "en",
+      "translation_of": "report/proposal.html"
+    },
+    {
+      "path": "report/copyright_statement.md",
+      "sha256": "87C6780140E546452DAFFAF387CDA0728435D0DF6ABDBA56E39F578570F621BD",
+      "role": "evidence",
+      "required": true,
+      "language": "neutral"
+    },
+    {
+      "path": "visual/index.html",
+      "sha256": "A8E316A5AE5F009BED7A644FAA6C4759EE5147E6E04EE3EAF4F98A3F67EECF29",
+      "role": "drawing",
+      "required": true,
+      "language": "neutral"
+    },
+    {
+      "path": "drawings/a0-boards.pdf",
+      "sha256": "7E2813B1EDE37EF91D7509B10763B7ECA9C5A78154A5BC6D28732B0D86A2D459",
+      "role": "drawing",
+      "required": true,
+      "language": "neutral"
+    },
+    {
+      "path": "drawings/a3-booklet.pdf",
+      "sha256": "7E2813B1EDE37EF91D7509B10763B7ECA9C5A78154A5BC6D28732B0D86A2D459",
+      "role": "drawing",
+      "required": true,
+      "language": "neutral"
+    },
+    {
+      "path": "assets/figures/overall-structure.png",
+      "sha256": "6B7FA434F92A8B80AAB02D9BF1A12E49FFCAE424E4013A1C4F68B67E3D2BBCD0",
+      "role": "drawing",
+      "required": true,
+      "language": "neutral"
+    },
+    {
+      "path": "assets/figures/overall-structure.en.png",
+      "sha256": "6B7FA434F92A8B80AAB02D9BF1A12E49FFCAE424E4013A1C4F68B67E3D2BBCD0",
+      "role": "drawing",
+      "required": true,
+      "language": "neutral"
+    },
+    {
+      "path": "assets/figures/key-areas.png",
+      "sha256": "6B7FA434F92A8B80AAB02D9BF1A12E49FFCAE424E4013A1C4F68B67E3D2BBCD0",
+      "role": "drawing",
+      "required": true,
+      "language": "neutral"
+    },
+    {
+      "path": "assets/figures/land-use-structure.png",
+      "sha256": "6B7FA434F92A8B80AAB02D9BF1A12E49FFCAE424E4013A1C4F68B67E3D2BBCD0",
+      "role": "drawing",
+      "required": true,
+      "language": "neutral"
+    },
+    {
+      "path": "assets/figures/metrics-evidence.png",
+      "sha256": "6B7FA434F92A8B80AAB02D9BF1A12E49FFCAE424E4013A1C4F68B67E3D2BBCD0",
+      "role": "drawing",
+      "required": true,
+      "language": "neutral"
+    },
+    {
+      "path": "assets/figures/mobility-bluegreen.png",
+      "sha256": "6B7FA434F92A8B80AAB02D9BF1A12E49FFCAE424E4013A1C4F68B67E3D2BBCD0",
+      "role": "drawing",
+      "required": true,
+      "language": "neutral"
+    },
+    {
+      "path": "assets/figures/site-overview.png",
+      "sha256": "6B7FA434F92A8B80AAB02D9BF1A12E49FFCAE424E4013A1C4F68B67E3D2BBCD0",
+      "role": "drawing",
+      "required": true,
+      "language": "neutral"
+    },
+    {
+      "path": "geometry/site_boundary.geojson",
+      "sha256": "2D5C6A07D1A99D51A0291056BA94823893A44322C17232D2C2CC572741CCD136",
+      "role": "design_geometry",
+      "required": true,
+      "language": "neutral"
+    },
+    {
+      "path": "geometry/key_areas.geojson",
+      "sha256": "70ED569A9517E7939E31AD93404A63E9464F223D5C1454898289D5C4EF52889F",
+      "role": "design_geometry",
+      "required": true,
+      "language": "neutral"
+    },
+    {
+      "path": "geometry/land_use.geojson",
+      "sha256": "AA76194506F2CEE01E4C34C0BB9B4507AB0D623E2D391ABE722061B2E097E515",
+      "role": "design_geometry",
+      "required": true,
+      "language": "neutral"
+    },
+    {
+      "path": "geometry/buildings.geojson",
+      "sha256": "681B63435AB3E6021B6CBFD5CD283DF8DD8F717D1B79EDB90361DE27A5B36347",
+      "role": "design_geometry",
+      "required": true,
+      "language": "neutral"
+    },
+    {
+      "path": "geometry/roads.geojson",
+      "sha256": "E955770A2B1F6B673E0199103F4CFD47E6D930736D1C3D1FD0018B1487887299",
+      "role": "design_geometry",
+      "required": true,
+      "language": "neutral"
+    },
+    {
+      "path": "geometry/constraints.geojson",
+      "sha256": "E98FA07686EDED3BA7D6881FFA1DDC61680627EE5CDAE2E9DBB1E88460252376",
+      "role": "design_geometry",
+      "required": true,
+      "language": "neutral"
+    },
+    {
+      "path": "geometry/phasing.geojson",
+      "sha256": "868511C358B53E2F0E1FAA419E0DFC3053D9B3D5324FA8AD627A288B16C2D690",
+      "role": "design_geometry",
+      "required": true,
+      "language": "neutral"
+    },
+    {
+      "path": "geometry/public_space.geojson",
+      "sha256": "A53A72DC5513B3D385A445FA42D81A6D3CCCF22DAEA17FD5864159A3010D5821",
+      "role": "design_geometry",
+      "required": true,
+      "language": "neutral"
+    },
+    {
+      "path": "geometry/green_space.geojson",
+      "sha256": "4AD9ADD1BFDDC04D042CF81F521A60DCDE08FC4F8B1179442A2C1C8EABC53580",
+      "role": "design_geometry",
+      "required": true,
+      "language": "neutral"
     }
-  ],
-  "key_innovations": [
-    "京张神经突触对时协议五原则（可对时/可降级/误点可查/可回退/人工终裁）",
-    "方法论创新：将软件工程可靠系统设计原则系统性引入城市规划",
-    "三缝合口空间结构（北/中/南），无围墙无门禁24小时开放",
-    "13个物理断开开关（12驿站+1全区总开关）",
-    "城市版本迭代机制（v1.0-v4.0），可回退可测试可衡量KPI",
-    "零公里对时柱·伦理与记忆综合体复合地标",
-    "全人群包容性设计与6条公共利益刚性保障",
-    "完整风险矩阵覆盖10类风险及缓解措施"
-  ],
-  "summary_zh": "以京张铁路历史文脉为根，以AI神经脉络为骨架，以「京张神经突触对时协议」为治理核心，构建「一带三核两翼三缝合口」的可信赖AI创新带。",
-  "summary_en": "Rooted in Jing-Zhang Railway heritage, structured around AI neural network metaphors, governed by the 'Jing-Zhang Synapse Time-Sync Protocol' with five principles."
+  ]
 }
