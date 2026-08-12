@@ -220,6 +220,60 @@
       "value": null,
       "reason": "概念分区，待法定用地分类深化",
       "confidence": "low"
+    },
+    "site_area_sqm": {
+      "status": "known",
+      "value": 43420371.393,
+      "unit": "sqm",
+      "source_files": [
+        "geometry/site_boundary.geojson"
+      ],
+      "confidence": "medium"
+    },
+    "green_space_area_sqm": {
+      "status": "known",
+      "value": 5773049.831,
+      "unit": "sqm",
+      "source_files": [
+        "geometry/green_space.geojson"
+      ],
+      "confidence": "medium"
+    },
+    "public_space_area_sqm": {
+      "status": "known",
+      "value": 2734533.627,
+      "unit": "sqm",
+      "source_files": [
+        "geometry/public_space.geojson"
+      ],
+      "confidence": "medium"
+    },
+    "building_footprint_area_sqm": {
+      "status": "known",
+      "value": 1139699.48,
+      "unit": "sqm",
+      "source_files": [
+        "geometry/buildings.geojson"
+      ],
+      "confidence": "medium"
+    },
+    "green_ratio": {
+      "status": "known",
+      "value": 0.132957,
+      "unit": "ratio",
+      "source_files": [
+        "geometry/green_space.geojson"
+      ],
+      "confidence": "medium"
+    },
+    "public_space_ratio": {
+      "status": "known",
+      "value": 0.062978,
+      "unit": "ratio",
+      "source_files": [
+        "geometry/public_space.geojson"
+      ],
+      "confidence": "medium"
     }
   },
   "geometric_recalculation_note": "当前指标基于公告公开的面积数据；官方精确GeoJSON边界发布后需复算所有空间指标。"
